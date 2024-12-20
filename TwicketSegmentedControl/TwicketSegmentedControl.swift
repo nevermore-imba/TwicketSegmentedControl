@@ -105,11 +105,11 @@ open class TwicketSegmentedControl: UIControl {
 
     private var segments: [String] = []
 
-    private var numberOfSegments: Int {
+    public var numberOfSegments: Int {
         return segments.count
     }
 
-    private var segmentWidth: CGFloat {
+    public var segmentWidth: CGFloat {
         return self.backgroundView.frame.width / CGFloat(numberOfSegments)
     }
 
